@@ -1,0 +1,11 @@
+input[data-required]{border-color: #ffa4a4 !important;}
+input[data-required]:focus{box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(255, 132, 132, 0.6) !important;}
+
+.center{text-align: center;}
+
+.alert li{list-style-type: none;}
+
+.align-right{text-align: right;}
+
+.text-green{color: green;}
+.text-red{color: red;}
