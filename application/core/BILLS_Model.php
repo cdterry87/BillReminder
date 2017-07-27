@@ -10,7 +10,7 @@ class BILLS_Model extends CI_Model {
 	 * Prepare $_POST data to be inserted into a database table.
 	 * -------------------------------------------------------------------------------- */
 	public function prepare($table){
-		$prepared='';
+		$prepared=array();
 		
 		//Set post data.
 		$data=$this->input->post();

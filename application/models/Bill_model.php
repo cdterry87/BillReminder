@@ -101,7 +101,7 @@ class Bill_model extends BILLS_Model {
 		//Set the user id for this bill.
 		$data['user_id']=$this->session->userdata('user_id');
 		
-		unset($data['bill_id']);
+		//unset($data['bill_id']);
 		
 		//Insert the data into the database.
 		$this->db->insert('bills', $data);
